@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "hospital_mob",
+  "version": "1.0.0",
+  "name": "hospital_mob",
+  "authors": [
+    "MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.hospitalmob.HospitalMobMod"
+    ],
+    "client": [
+      "net.mcreator.hospitalmob.HospitalMobModClient"
+    ]
+  },
+  "accessWidener": "META-INF/hospital_mob.classtweaker",
+  "mixins": [
+    "hospital_mob.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
