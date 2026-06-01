@@ -1,0 +1,117 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hospitalmob",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hospitalmob",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospital_mob/items/hospitalmob_spawn_egg.json",
+          "src/main/java/net/mcreator/hospitalmob/client/renderer/HospitalmobRenderer.java",
+          "src/main/resources/assets/hospital_mob/models/item/hospitalmob_spawn_egg.json",
+          "src/main/java/net/mcreator/hospitalmob/entity/HospitalmobEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "HospitalmobPlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hospitalmob_playback_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/hospitalmob/procedures/HospitalmobPlaybackConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HospitalmobPlaybackConditionWalk",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hospitalmob_playback_condition_walk",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/hospitalmob/procedures/HospitalmobPlaybackConditionWalkProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.hospital_mob.hospitalmob_spawn_egg": "Hospitalmob Spawn Egg",
+      "entity.hospital_mob.hospitalmob": "Hospitalmob"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/hospitalmob/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/hospitalmob/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/hospitalmob/init/HospitalMobModItems.java",
+      "src/main/java/net/mcreator/hospitalmob/init/HospitalMobModEntities.java",
+      "src/main/java/net/mcreator/hospitalmob/init/HospitalMobModEntityRenderers.java",
+      "src/main/resources/META-INF/hospital_mob.classtweaker",
+      "src/main/java/net/mcreator/hospitalmob/event/ItemEvents.java",
+      "src/main/java/net/mcreator/hospitalmob/init/HospitalMobModTabs.java",
+      "src/main/java/net/mcreator/hospitalmob/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/hospitalmob/mixin/CommandsMixin.java",
+      "src/main/java/net/mcreator/hospitalmob/event/MiscEvents.java",
+      "src/main/java/net/mcreator/hospitalmob/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/hospitalmob/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/hospitalmob/mixin/ExperienceOrbMixin.java",
+      "src/main/java/net/mcreator/hospitalmob/HospitalMobMod.java",
+      "src/main/java/net/mcreator/hospitalmob/init/HospitalMobModModels.java",
+      "src/main/java/net/mcreator/hospitalmob/mixin/PlayerMixin.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/hospitalmob/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/hospitalmob/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/hospitalmob/event/LivingEntityEvents.java",
+      "src/main/java/net/mcreator/hospitalmob/HospitalMobModClient.java",
+      "src/main/resources/hospital_mob.mixins.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/hospitalmob/event/BlockEvents.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hospital_mob",
+    "modName": "hospital_mob",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.hospitalmob"
+  },
+  "mcreatorVersion": 202600114619
+}
