@@ -1,2 +1,2 @@
 # hospitalmob_mod_Java-neoforge-1.21.8
-blockbenchとMCreatorで初めて自作したオリジナルモブのMODです(Java版)。fabricではなくneoforge(1.21.8)で動作します。というのもMCreatorのエクスポートの初期設定がneoforgeだったからです。歩行アニメーション、攻撃アニメーションがついてますが、後者は攻撃するときにアニメーションを動かす設定にしたため一瞬しか流れないです。もしこのMODを利用したければ、neoforgeの起動構成(1.21.8対応)をインストールし、ランチャーの起動構成を変更してから.minecraftのmodsフォルダに保存してください。.
+blockbenchとMCreatorで初めて自作したオリジナルモブのMODです(Java版)。fabricではなくneoforge(1.21.8)で動作します。というのもMCreatorのエクスポートの初期設定がneoforgeだったからです。歩行アニメーション、攻撃アニメーションがついてますが、後者は攻撃するときにアニメーションを動かす設定にしたため一瞬しか流れないです。もしこのMODを利用したければ、neoforgeの起動構成(1.21.8対応)をインストールし、ランチャーの起動構成を変更してから.minecraftのmodsフォルダに「hospital_mob~1.21.8.jar」を貼り付けてください。
